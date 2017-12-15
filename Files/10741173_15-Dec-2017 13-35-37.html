@@ -1,0 +1,268 @@
+<html>
+<head>
+<title>TopTeam</title>
+<link rel="stylesheet" type="text/css" href="ProjectModelHtmlExport.css" />
+</head>
+<body>
+<table  class="OuterTable">
+<tr ><td noWrap class="TitleText HeaderTableBackground"  ><SPAN class="inlineimg"></SPAN><SPAN class="RepositoryObjectHeaderName"><IMG SRC="ttmRecordTypeImage27.jpeg" class="imgVAlign" >&nbsp;Register Account</SPAN><SPAN class="RecordTypeHeaderName">&nbsp; [UC-151&nbsp;Use Case]</SPAN></td></tr>
+
+<tr><td  class="WinURL"  align="right">  &nbsp;&nbsp;&nbsp;&nbsp; <a href=VUC://OpenRecord/RepositoryObject?UID=10741173 >Open in Win Client</a>&nbsp;&nbsp;&nbsp;&nbsp;</td></tr>
+</table>
+<table  class="OuterTable" border="0" cellpadding="0" cellspacing="0" >
+  <tr align="left" valign="top">
+  <Td><img src="BlankImg.gif" width="150px" height="1px"/></Td>
+  <td></td>
+  </tr>
+  <tr align="left" valign="top">
+  <Td  class="FieldCaption">Description (Goal in Context)</Td>
+  <td  class="FieldText">This UC describes the process of a guest registering for an account on the Marketplace. An email address, and password is required to create an account. An email with an activation link will be sent to the provided email.</td>
+  </tr>
+  <tr align="left" valign="top">
+  <Td  class="FieldCaption">Primary Actors</Td>
+  <td  class="FieldText">
+<title>TopTeam</title>
+<style type="text/css">
+</style>
+
+<table  border =0 width = "100%" >
+  <tr > <Td  class="TabIdFieldText" width = "10%"  ><IMG SRC="ttmRecordTypeImage26.jpeg" class="imgVAlign" >&nbsp;<a href="10741178_15-Dec-2017 13-35-37.html" target="mainPage">ACTR-150</a></Td>
+  <Td  class="TabFieldText"  width = "90%">Guest</Td> </tr>
+</table>
+
+
+</td>
+  </tr>
+  <tr align="left" valign="top">
+  <Td  class="FieldCaption">Supporting Actors</Td>
+  <td  class="FieldText">
+<title>TopTeam</title>
+<style type="text/css">
+</style>
+
+<table  border =0 width = "100%" >
+</table>
+
+
+</td>
+  </tr>
+  <tr align="left" valign="top">
+  <Td  class="FieldCaption">Post Conditions</Td>
+  <td  class="FieldText"><font size=2 color="#000000" face="Arial">
+<div><span nsGUID="">
+<span style="font-weight: bold; font-size: 10pt; font-family: 'Arial'; color: #000000;">Success end condition</span></span>
+</div>
+<div><span nsGUID="">
+ - An account will be created and an Email sent to the provided email address</span></span>
+</div>
+<div><span nsGUID="">
+<span style="font-weight: bold; font-size: 10pt; font-family: 'Arial'; color: #000000;"><br></span></span>
+</div>
+<div><span nsGUID="">
+<span style="font-weight: bold; font-size: 10pt; font-family: 'Arial'; color: #000000;">Failure end condition</span></span>
+</div>
+<div><span nsGUID="">
+ - Email already exists or Registration is cancelled. No new account created</span></span>
+</div>
+<div><span nsGUID="">
+<br></span></span>
+</div>
+<div><span nsGUID="">
+Minimal Guarantee</span></span>
+</div>
+<div><span nsGUID="">
+ - </span></span>
+</div>
+<div><span nsGUID="">
+<br></span></span>
+</div>
+</font>
+</td>
+  </tr>
+  <tr align="left" valign="top">
+  <Td  class="FieldCaption">Flows</Td>
+  <td  class="FieldText"><font size=3 color="#000000" face="Arial">
+<span nsGUID="{AC19D691-CF89-4B73-A9FE-D626CB24FD27}">
+
+<a name=RichViewCheckpoint0></a>
+<hr noshade size=1 color="#ffffff">
+</span>
+<div><span nsGUID="">
+
+<a name=RichViewCheckpoint1></a>
+<span style="font-weight: bold; font-size: 14pt; font-family: 'Arial'; color: #325898;">Main Flow-of-Events</span></span>
+</div>
+<ol>
+<li>
+<a name=RichViewCheckpoint2></a>
+<span nsGUID="">
+
+<a name=RichViewCheckpoint3></a>
+<a href="10741178_15-Dec-2017 13-35-37.html"><span style="font-weight: bold; font-size: 12pt; font-family: 'Arial'; color: #000000;">Guest</span></a></span>
+<span nsGUID="">
+ choose to register new Account</span></span>
+</li>
+<li>
+<a name=RichViewCheckpoint4></a>
+<span nsGUID="">
+
+<a name=RichViewCheckpoint5></a>
+<span style="font-weight: bold; font-size: 12pt; font-family: 'Arial'; color: #000000;">System</span></span>
+<span nsGUID="">
+ displays a Registration Page </span></span>
+</li>
+<li>
+<a name=RichViewCheckpoint6></a>
+<span nsGUID="">
+
+<a name=RichViewCheckpoint7></a>
+<a href="10741178_15-Dec-2017 13-35-37.html"><span style="font-weight: bold; font-size: 12pt; font-family: 'Arial'; color: #000000;">Guest</span></a></span>
+<span nsGUID="">
+ enters Email Address and Password</span></span>
+</li>
+<li>
+<a name=RichViewCheckpoint8></a>
+<span nsGUID="">
+
+<a name=RichViewCheckpoint9></a>
+<span style="font-weight: bold; font-size: 12pt; font-family: 'Arial'; color: #000000;">System</span></span>
+<span nsGUID="">
+ verifies Email Address doesn't exist and Password meets criteria</span></span>
+</li>
+<li>
+<a name=RichViewCheckpoint10></a>
+<span nsGUID="">
+
+<a name=RichViewCheckpoint11></a>
+<span style="font-weight: bold; font-size: 12pt; font-family: 'Arial'; color: #000000;">System</span></span>
+<span nsGUID="">
+ creates new account and send activation email to provided email address</span></span>
+</li>
+<li>
+<a name=RichViewCheckpoint12></a>
+<span nsGUID="">
+<span style="font-weight: bold; font-size: 12pt; font-family: 'Arial'; color: #008635;">Use Case ends with Success.</span></span>
+</li>
+<span nsGUID="{20A0E418-FE9C-4104-A7EF-60236FA10CF8}">
+
+<a name=RichViewCheckpoint13></a>
+<hr noshade size=1 color="#ffffff">
+</span>
+</li>
+</ol>
+<div><span nsGUID="">
+<br></span></span>
+</div>
+<div><span nsGUID="">
+
+<a name=RichViewCheckpoint14></a>
+<span style="font-weight: bold; font-size: 14pt; font-family: 'Arial'; color: #325898;">Extensions&nbsp; </span></span>
+</div>
+<span nsGUID="{BEFE0865-2FA7-43DF-BE2A-10397D0AE092}">
+
+<a name=RichViewCheckpoint15></a>
+<hr noshade size=1 color="#ffffff">
+</span>
+<div><span nsGUID="">
+
+<a name=RichViewCheckpoint16></a>
+<span style="font-weight: bold; font-size: 12pt; font-family: 'Arial'; color: #325898;">4a. Email Address already exists</span></span>
+</div>
+<ol>
+<li>
+<a name=RichViewCheckpoint17></a>
+<span nsGUID="">
+
+<a name=RichViewCheckpoint18></a>
+<span style="font-weight: bold; font-size: 12pt; font-family: 'Arial'; color: #000000;">System</span></span>
+<span nsGUID="">
+ detects Email Address already exists </span></span>
+</li>
+<li>
+<a name=RichViewCheckpoint19></a>
+<span nsGUID="">
+
+<a name=RichViewCheckpoint20></a>
+<span style="font-weight: bold; font-size: 12pt; font-family: 'Arial'; color: #000000;">System</span></span>
+<span nsGUID="">
+ notifies </span></span>
+<span nsGUID="">
+
+<a name=RichViewCheckpoint21></a>
+<a href="10741178_15-Dec-2017 13-35-37.html"><span style="font-weight: bold; font-size: 12pt; font-family: 'Arial'; color: #000000;">Guest</span></a></span>
+<span nsGUID="">
+ that Email Address already exists </span></span>
+</li>
+<li>
+<a name=RichViewCheckpoint22></a>
+<span nsGUID="">
+<span style="font-weight: bold; font-size: 12pt; font-family: 'Arial'; color: #007d7d;">Continue from step 3. of Main Flow-of-Events.</span></span>
+</li>
+<span nsGUID="{FBE3F961-3228-4ABA-8DB1-95F7AD5F20FF}">
+
+<a name=RichViewCheckpoint23></a>
+<hr noshade size=1 color="#ffffff">
+</span>
+</li>
+</ol>
+</font>
+</td>
+  </tr>
+  <tr align="left" valign="top">
+  <Td  class="FieldCaption">&nbsp</Td>
+  <td  class="FieldText"><IMG SRC="UseCaseDiagramELM_SYS_BLOB10741173.jpg" ><BR><BR><BR></td>
+  </tr>
+  <tr align="left" valign="top">
+  <Td  class="FieldCaption">Version</Td>
+  <td  class="FieldText">1.00</td>
+  </tr>
+  <tr align="left" valign="top">
+  <Td  class="FieldCaption">Crt by</Td>
+  <td  class="FieldText">Sandy Beidu</td>
+  </tr>
+  <tr align="left" valign="top">
+  <Td  class="FieldCaption">Crt dt</Td>
+  <td  class="FieldText">06/03/2017 21:20:48</td>
+  </tr>
+  <tr align="left" valign="top">
+  <Td  class="FieldCaption">Upd by</Td>
+  <td  class="FieldText">Sandy Beidu</td>
+  </tr>
+  <tr align="left" valign="top">
+  <Td  class="FieldCaption">Upd dt</Td>
+  <td  class="FieldText">06/03/2017 22:37:13</td>
+  </tr>
+  </table >
+<table class="OuterTable"><tr > <td class="tabSecHdr" >&nbsp;<B>Workflow History</B></td></tr><tr><td >
+<title>TopTeam</title>
+<style type="text/css">
+.fldLabel {  font-family: Arial, Helvetica, sans-serif; font-size: 11pt; font-weight: bold; color: #003366; background-color: #EAEAEA; border-color: black #999999 black black; border-right-width: thin}
+.fldValue { font-family: Arial, Helvetica, sans-serif; font-size: 11pt; font-weight: normal; color: #2A2A2A; background-color: #EAEAEA}
+.fldLabelEven { font-family: Arial, Helvetica, sans-serif; font-size: 11pt; font-weight: bold; color: #003366; background-color: #FFFFFF}
+.fldValueEven { font-family: Arial, Helvetica, sans-serif; font-size: 11pt; font-weight: normal; color: #2A2A2A; background-color: #FFFFFF}
+.ReportTitle {  font-family: Arial, Helvetica, sans-serif; font-size: large; color: #3B3B3B}
+.fldValueTitle { font-family: Arial, Helvetica, sans-serif; font-size: 11pt; font-weight: normal; color: #000066; background-color: #FFFFFF }
+.fldLabelTitle { font-family: Arial, Helvetica, sans-serif; font-size: 11pt; font-weight: bold; color: #003366; background-color: #FFFFFF }
+.notesHeader { font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: normal; color: #003366; padding-left: 6px; padding-top: 10px; background-color: #FFFFFF; padding-right: 5px; padding-bottom: 2px; border-style: none}
+.notesText { font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: normal; color: #2A2A2A; background-color: #FFFFFF ; padding-left: 25px; padding-top: 0px; padding-bottom: 5px; border-style: none}
+.ntfnHeader { font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: normal; color: #2A2A2A; padding-left: 6px; padding-top: 10px; background-color: #FFFFFF; padding-right: 5px; padding-bottom: 2px; border-style: none}
+
+</style>
+
+<table  class="PreviewChildTab" border="0" cellpadding="0" cellspacing="0" >
+<tr ><Td  class="TabFieldText" ></Td></tr>
+<tr > <Td><IMG SRC="WorkFlowDiagram10741174.jpg" ></Td></tr>
+</table>
+
+
+</td></tr></table>
+<table  class="OuterTable" border="0" cellpadding="0" cellspacing="0" >
+<tr >
+<td bgcolor="#EEEEEE" ></td>
+</tr>
+  </table>
+  <table class="Header" border="0" cellpadding="0" cellspacing="0" >
+<Br></Br>
+</table>
+</body>
+</html>
